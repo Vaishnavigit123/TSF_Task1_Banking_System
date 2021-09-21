@@ -1,0 +1,68 @@
+header{
+	background-color: black;
+	height: 30vh;
+	background-size: cover;
+	background-position: center;
+}
+.main{
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: underline;
+	text-size: 20px;
+	color: #fff;
+	padding:  5px 20px;
+	border: 5px solid #fff;
+	transform: 0.6 ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: black;
+}
+.name{
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+}
+.name h1{
+	color: #fff;
+	font-size: 70px;
+	text-decoration: underline;
+}
+table{
+	width: 1000px;
+	height: 100px;
+	margin-top: 50px;
+	margin-left: 300px;
+	font-family: all;
+}
+th{
+	text-align: center;
+	font-size: 30px;
+	color: skyblue;
+	background-color: blue;
+}
+table,  th, td{
+	border: 1px solid black;
+    
+}
+td{
+	padding: 10px;
+	font-size: 20px;
+	background-color: skyblue;
+}
+th, caption{
+	font-size: 35px;
+	padding: 20px;
+	bottom: 100px;
+}
+table tr td:hover{
+	background: #fff;
+	color: blue;
+}

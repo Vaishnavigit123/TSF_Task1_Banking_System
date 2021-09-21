@@ -1,0 +1,25 @@
+header{
+	background-color: black;
+	height: 30vh;
+	background-size: cover;
+	background-position: center;
+}
+.name{
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+}
+.name h1{
+	color: #fff;
+	font-size: 70px;
+	text-decoration: underline;
+}
+.succ{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-orientation: all;
+
+}

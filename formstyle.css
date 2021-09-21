@@ -1,0 +1,88 @@
+body{
+	margin: 0;
+	padding: p;
+	font-family: montserrat;
+	
+}
+header{
+	background-color: black;
+	height: 30vh;
+	background-position: center;
+	background-size: cover;
+}
+.text{
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+.text ul li{
+	display: inline-block;
+}
+.text ul li a{
+	text-decoration: underline;
+	text-size: 20px;
+	color: #fff;
+	padding:  5px 20px;
+	border: 5px solid #fff;
+	transform: 0.6 ease;
+}
+.text ul li a:hover{
+	background-color: #fff;
+	color: black;
+}
+.name{
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+}
+.name h1{
+	color: #fff;
+	font-size: 70px;
+	text-decoration: underline;
+}
+.main h1{
+	text-align: center;
+	padding: 0 0 20 px 0;
+	border-bottom: 1px solid silver;
+}
+.main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 200px;
+	background: #fff;
+	border-radius: 10px;
+}
+.main form{
+	padding: 0 100px;
+	box-sizing: border-box;
+}
+form .content{
+	position: relative;
+	border-bottom: 2px solid #adadad;
+}
+.content input{
+	width: 100%;
+	padding: 0 5px;
+	height: 20px;
+	font-size: 16px;
+	background: none;
+	outline: none;
+	position: inherit;
+}
+.content label{
+	margin-right: 50px;
+}
+.Transfer:hover{
+	background-color: #fff;
+	color: #fff;
+}
+.head h1{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
